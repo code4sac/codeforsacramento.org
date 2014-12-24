@@ -1,3 +1,10 @@
-url: http://code4sac.org/coders
-name: Code4Sac
-description: We play with code.
+# Site settings
+title: Code for Sacramento
+email: hello@codeforsacramento.org
+description: We play with data and deploy civic apps.
+url: "http://www.codeforsacramento.org/"
+twitter_username: code4sac
+github_username:  code4sac
+
+# Build settings
+markdown: kramdown

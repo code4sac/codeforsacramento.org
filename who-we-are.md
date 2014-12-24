@@ -1,7 +1,8 @@
 ---
-title: Brigade Leaders
-author: Hailey Pate
+title: Who We Are
+author: Code for Sacramento
 layout: page
+permalink: /who-we-are/
 ---
 **Brandon Pugh** // Co-Captain
 
