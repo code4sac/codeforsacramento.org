@@ -1,3 +1,28 @@
 body {
-  padding-top: 90px;
+  padding-top: 64px;
+}
+
+.jumbotron-home {
+  background: url('../images/tower-bridge-overlay.jpg') no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+  text-align: center;
+}
+
+.jumbotron-wrapper {
+  position: relative;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  max-width: 2560px;
+  z-index: 0;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+  color: #fff;
+}
+
+.drop-shadow {
+  text-shadow: 2px 2px 2px #000;
 }

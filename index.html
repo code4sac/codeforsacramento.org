@@ -1,31 +1,28 @@
 ---
-layout: default
+layout: home
 ---
-<!-- Call to action -->
-<div class="jumbotron">
-  <h1>We are Code for Sacramento</h1>
-  <p>As a Code for America Brigade, we're part of a national network of civic-minded volunteers who contribute their skills toward using the web as a platform for local government and community service.</p>
-  <p>
-    <a class="btn btn-lg btn-success" href="#" role="button">Call to action</a>
-  </p>
-</div>
+<!-- Main container -->
+<div class="container">
 
-<div class="home">
+  <!-- Home content -->
+  <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+    <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <ul class="post-list">
+      {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-      <h2>
-        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-      </h2>
-    </li>
-    {% endfor %}
-  </ul>
+        <h2>
+          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+      </li>
+      {% endfor %}
+    </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" }}">via RSS</a></p>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" }}">via RSS</a></p>
 
-</div>
+  </div><!-- /home content -->
+
+</div><!-- /main container -->
