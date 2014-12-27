@@ -4,25 +4,42 @@ layout: home
 <!-- Main container -->
 <div class="container">
 
-  <!-- Home content -->
-  <div class="home">
+  <div class="row">
 
-    <h1 class="page-heading">Posts</h1>
+    <!-- Blog content -->
+    <div class="col-md-8">
 
-    <ul class="post-list">
-      {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h3>From the Blog</h3>
 
-        <h2>
-          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-        </h2>
-      </li>
-      {% endfor %}
-    </ul>
+      <ul class="post-list">
+        {% for post in site.posts limit:3 %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" }}">via RSS</a></p>
+          <h4>
+            <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+          </h4>
 
-  </div><!-- /home content -->
+          {{ post.excerpt }}
+
+        </li>
+        {% endfor %}
+      </ul>
+
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" }}">via RSS</a></p>
+
+    </div><!-- /blog content -->
+
+    <!-- Civic tech issue finder -->
+    <div class="col-md-4">
+
+      <h5>You can Code for Sacramento right now!</h5>
+      <h6>Here are some things we need help with:</h6>
+
+      <iframe src="http://codeforamerica.org/geeks/civicissues/widget?organization_name=Code-for-Sacramento&labels=help wanted&number=3" width="100%" height="850" frameBorder="0"></iframe>
+
+    </div><!-- /civic tech issue finder -->
+
+  </div><!-- /.row -->
 
 </div><!-- /main container -->
