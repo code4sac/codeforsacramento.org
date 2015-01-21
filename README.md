@@ -26,4 +26,8 @@ Help us make the site better by [forking our site](https://help.github.com/artic
 
 ### Hack Away
 
+With `jekyll serve --watch` running, you should be able to access the site on http://localhost:4000 ! Thanks to the `--serve` option, any changes you make to the markdown (md) files will update automatically! 
+
+For reference, here's an [awesome markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
 Contribute, change things, submit a pull request! 
