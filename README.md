@@ -30,4 +30,4 @@ With `jekyll serve --watch` running, you should be able to access the site on ht
 
 For reference, here's an [awesome markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-Contribute, change things, submit a pull request! 
+Contribute, change things, submit a pull request! We will all contribute. 
