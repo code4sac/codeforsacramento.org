@@ -27,3 +27,13 @@ body {
 .drop-shadow {
   text-shadow: 2px 2px 2px #000;
 }
+
+footer {
+  margin: 2em 0;
+}
+
+footer li {
+  float: right;
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+}
