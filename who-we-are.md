@@ -8,7 +8,7 @@ permalink: /who-we-are/
 
 **Brandon Pugh** // Co-Captain
 
-**Jesse Rosato** // Co-Captain
+**Jesse Rosato** // Co-Captain jesse.rosato@gmail.com
 
 ## Core Team
 
