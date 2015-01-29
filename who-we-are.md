@@ -4,6 +4,8 @@ author: Code for Sacramento
 layout: page
 permalink: /who-we-are/
 ---
+We're a group of civic-minded programmers, coders, designers, and extraordinary citizens. We work in partnership with government, non-profit, and technical partners to deploy technology to improve quality of life and increase citizen engagement with civic issues.
+
 ## Leaders
 
 **Brandon Pugh** // Co-Captain
