@@ -9,6 +9,19 @@ body {
   background-size: cover;
 }
 
+/* Our banner to promote CodeAcross */
+.banner {
+  width: 100%;
+  background: center center no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+/* Remove padding above banner */
+.jumbotron {
+  margin-bottom: 0px;
+}
+
 .jumbotron-wrapper {
   position: relative;
   margin: 0 auto;
