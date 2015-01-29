@@ -5,7 +5,7 @@ layout: page
 permalink: /what-we-do/
 ---
 ##Technology for Good
-We share a mission with our parent organization, Code for America:
+We share a mission with our parent organization, [Code for America](http://codeforamerica.org):
 
 >We build open source technology and organize a network of people dedicated to making government services simple, effective, and easy to use.
 
