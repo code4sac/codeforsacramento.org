@@ -1,10 +1,10 @@
 ---
-title: 'HACK NIGHT RECAP <br /> -Aug 6 2014'
+title: 'HACK NIGHT RECAP - Aug 6 2014'
 author: Brandon Pugh
 layout: post
 permalink: /hack-night-recap-aug-6-2014/
 main_image:
-  - 
+  -
 categories:
   - blog
 ---
