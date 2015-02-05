@@ -1,0 +1,18 @@
+---
+title: 'Test Post'
+author: Jesse Rosato
+layout: post
+permalink: /test-post/
+main_image:
+  -
+categories:
+  - blog
+tags:
+  - blog
+---
+
+#This is a header
+
+##This is a smaller header
+
+This is some paragraph text. Let's add some _italic_.
