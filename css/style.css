@@ -9,6 +9,12 @@ body {
   background-size: cover;
 }
 
+/* CodeAcross landing page */
+.banner {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
 .jumbotron-wrapper {
   position: relative;
   margin: 0 auto;
@@ -26,4 +32,14 @@ body {
 
 .drop-shadow {
   text-shadow: 2px 2px 2px #000;
+}
+
+footer {
+  margin: 2em 0;
+}
+
+footer li {
+  float: right;
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
 }
