@@ -5,7 +5,7 @@ layout: page
 permalink: /contact/
 ---
 
-###[Email](mailto:hello@codeforsacramento.org) &#124; [Twitter](@code4sac) &#124; [Meetup](http://www.meetup.com/Code4Sac/)
+###[Email](mailto:hello@codeforsacramento.org) &#124; [Twitter](https://twitter.com/code4sac) &#124; [Meetup](http://www.meetup.com/Code4Sac/)
 
 <hr />
 
