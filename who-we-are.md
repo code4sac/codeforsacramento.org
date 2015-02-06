@@ -10,7 +10,7 @@ We're a group of civic-minded programmers, coders, designers, and extraordinary 
 
 **Brandon Pugh** // Co-Captain
 
-**Jesse Rosato** // Co-Captain
+**Jesse Rosato** // Co-Captain jesse.rosato@gmail.com
 
 ## Core Team
 
