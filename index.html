@@ -12,7 +12,7 @@ layout: home
       <h3>From the Blog</h3>
 
       <ul class="list-unstyled">
-        {% for post in site.posts limit:4 %}
+        {% for post in site.posts limit:5 %}
           {% if post.categories contains "blog" %}
           <li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
