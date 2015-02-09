@@ -7,6 +7,7 @@ main_image:
   -
 categories:
   - learning
+  - blog
 tags:
   - learning
 ---
