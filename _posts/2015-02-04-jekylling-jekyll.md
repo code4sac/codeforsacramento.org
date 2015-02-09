@@ -13,6 +13,7 @@ tags:
 ---
 
 Code for Sacramento is a couple weeks into using our new Jekyll based website and we figured it'd be an awesome way to introduce members to contributing to open source projects and working with code! Here are a few reasons you should contribute or learn to contribute to the Code For Sacramento website:
+
 * It likely needs the help!
 * It'll teach you a new skill (git, HTML, css, jekyll, linux)
 * You'll make your github profile happy!
