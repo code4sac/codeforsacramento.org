@@ -1,0 +1,65 @@
+---
+layout: default
+title: 'Our Projects'
+scripts: ['moment.js','handlebars.min.js','projects.js']
+---	
+<section class="container-fluid">
+	<div id="projects">
+	
+	</div>
+</section>
+
+<script id="project-template" type="text/x-handlebars-template">
+	{{#each projects}}
+
+	<div class="row">
+		<div class="col-sm-12">
+			<h1>{{name}}</h1>
+			<p class="lead">{{description}}</p>
+			<div class="row">
+				<div class="col-md-5">
+					{{#if link_url}}
+					<span class="glyphicon glyphicon-home"></span>
+					<a href="{{link_url}}">{{link_url}}</a>
+					<br />
+					{{/if}}
+					{{#if code_url}}
+					<i class="fa fa-github-square"></i>
+					<a href="{{code_url}}">{{code_url}}</a>
+					<br />
+					{{/if}}
+					<strong>Last Updated: </strong>{{lastUpdateDaysFromNow}}
+					<br />
+					{{#if github_details.language}}
+					<strong>Language: </strong>{{github_details.language}}
+					<br />
+					{{/if}}
+				</div>
+				<div class="col-md-offset-1 col-md-6">
+					{{#if github_details}}<strong>Contributors:</strong>{{/if}}
+					<p class='contributors'>
+						{{#if github_details.owner}}
+						{{#with github_details.owner}}
+						<a href='{{html_url}}' class='contributor-owner'>
+							<img class='img-thumbnail' src='{{avatar_url}}' alt='Owner: {{login}}' title='Owner: {{login}}'/></a>
+						<span style='display: none;'>{{login}}</span>
+						{{/with}}
+						{{/if}}
+						{{#each github_details.contributors}}
+						<a href='{{html_url}}'>
+							<img class='img-thumbnail' src='{{avatar_url}}' alt='{{login}}' title='{{login}}'/>
+						</a>
+						<span style='display: none;'>{{login}}</span>
+						{{/each}}
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	{{/each}}
+</script>
+	
+<!--<script src="../javascript/handlebars.min.js"></script>
+<script src="../javascript/moment.js"></script>
+<script src="../javascript/projects.js"></script>-->
+
