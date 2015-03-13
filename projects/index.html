@@ -3,14 +3,16 @@ layout: default
 title: 'Our Projects'
 scripts: ['moment.js','handlebars.min.js','projects.js']
 ---	
+<script src="../js/handlebars.min.js"></script>
 <section class="container-fluid">
 	<div id="projects">
 	
 	</div>
 </section>
 
+{% raw %}
 <script id="project-template" type="text/x-handlebars-template">
-	{{#each projects}}
+  {{#each projects}}
 
 	<div class="row">
 		<div class="col-sm-12">
@@ -58,8 +60,9 @@ scripts: ['moment.js','handlebars.min.js','projects.js']
 	</div>
 	{{/each}}
 </script>
-	
-<!--<script src="../javascript/handlebars.min.js"></script>
-<script src="../javascript/moment.js"></script>
-<script src="../javascript/projects.js"></script>-->
+{% endraw %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../js/moment.js"></script>
+<script src="../js/projects.js"></script>
 
