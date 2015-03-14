@@ -52,3 +52,12 @@ footer li {
 .lower {
   margin-top: 20px;
 }
+
+/* Projects */
+.contributors img {
+  width: 50px;
+}
+
+.contributor-owner img {
+  border: 1px solid darkgray;
+}
