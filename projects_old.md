@@ -2,7 +2,7 @@
 title: Our Projects
 author: Code for Sacramento
 layout: page
-permalink: /projects/
+permalink: /projects_old/
 ---
 
 ####For a full list of our projects, checkout [our github repos](https://github.com/code4sac).
