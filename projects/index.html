@@ -36,6 +36,11 @@ scripts: ['moment.js','handlebars.min.js','projects.js']
 					<strong>Language: </strong>{{github_details.language}}
 					<br />
 					{{/if}}
+          {{#if github_details.open_issues}}
+          <strong>Open Issues: </strong>
+          <a href="#" data-toggle="modal" data-target="#issues-{{id}}">{{github_details.open_issues}} - Get Involved!</a>
+          <br />
+          {{/if}}
 				</div>
 				<div class="col-md-offset-1 col-md-6">
 					{{#if github_details}}<strong>Contributors:</strong>{{/if}}
@@ -56,6 +61,41 @@ scripts: ['moment.js','handlebars.min.js','projects.js']
 					</p>
 				</div>
 			</div>
+      {{#if github_details.open_issues}}
+      <div class="modal fade" id='issues-{{id}}' tabindex="-1" role="dialog" aria-labelledby="issuesModal-{{id}}" aria-hiddne="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 id="issuesTitle-{{id}}" class="modal-title">Open issues for {{name}}</h4>
+            </div>
+            <div class="modal-body">
+              <ul class="issues">
+                {{#each issues}}
+                <li>
+                  <div class="issue">
+                    <h6><a href='{{html_url}}'>{{title}}</a></h6>
+                    {{#if labels}}
+                    <div>
+                      {{#each labels}}
+                      <div class="issue-label" style="border: 1px solid #{{color}};background-color: #{{color}}">{{name}}</div>
+                      {{/each}}
+                    </div>
+                  </div>
+                  {{/if}}
+                </li>
+                {{/each}}
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/if}}
 		</div>
 	</div>
 	{{/each}}

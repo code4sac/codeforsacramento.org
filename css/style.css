@@ -10,7 +10,6 @@ footer li {
   margin-right: 1.5em;
   margin-bottom: 1.5em;
 }
-
 /* Home page cover */
 .bg-img {
   width: 100%;
@@ -57,7 +56,26 @@ footer li {
 .contributors img {
   width: 50px;
 }
-
 .contributor-owner img {
   border: 1px solid darkgray;
+}
+.issues {
+  list-style-type: none;
+}
+.issue {
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  border-radius: .33em;
+  margin-bottom: 10px;
+}
+.issue-label {
+  /*border: 1px solid #00a175;
+  background-color: #00a175;*/
+  display: inline-block;
+  color: #444444;
+  text-align: center;
+  border-radius: .33em;
+  margin: 5px;
+  padding: 0 10px;
+  font-size: 0.85em;
 }
