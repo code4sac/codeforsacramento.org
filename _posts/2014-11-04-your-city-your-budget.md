@@ -4,7 +4,7 @@ author: Joel Riphagen
 layout: post
 permalink: /your-city-your-budget/
 main_image:
-  - 
+  -
 categories:
   - blog
 tags:
@@ -12,7 +12,7 @@ tags:
 ---
 A few months ago, the Sacramento Open Budget Project snagged Sacramento’s 200-page budget and unlocked the city’s vitals from PDF purgatory.
 
-We published the information <a href="https://github.com/code4sac/open-budget" target="_blank">here</a> in .csv format so that anyone could download and play with it. Code4Sac members created some really neat visualiza<img class="alignright wp-image-771 size-medium" src="http://code4sac.org/coders/wp-content/uploads/Budget-1-296x300.jpg" alt="Budget 1" width="296" height="300" />tions to show expenditures by department and funding source. We hoped to show the city and its citizens the power of opening up Sacramento’s data.
+We published the information <a href="https://github.com/code4sac/open-budget" target="_blank">here</a> in .csv format so that anyone could download and play with it. Code4Sac members created some really neat visualiza<img class="alignright wp-image-771 size-medium" src="../images/posts/Budget-1-296x300.jpg" alt="Budget 1" width="296" height="300" />tions to show expenditures by department and funding source. We hoped to show the city and its citizens the power of opening up Sacramento’s data.
 
 Now we’re thrilled to announce that the city has joined us in opening up its data, uploading <a href="http://data.cityofsacramento.org/datastreams/88104/city-of-sacramento-last-three-approved-budgets/" target="_blank">the last three years of budget history</a> online.
 
@@ -30,7 +30,7 @@ Ultimately, we would love to see all the data from the PDF version of the budget
 
 For a quick run-down of Code4Sac’s Open Budget Project, read on!  For a more detailed description of the data and the process involved, head on over to our permanent [Open Budget Project page][1].
 
-<img class="alignnone size-full wp-image-769" src="http://code4sac.org/coders/wp-content/uploads/Budget-3.jpg" alt="Budget 3" width="990" height="260" />
+<img class="alignnone size-full wp-image-769" src="../images/posts/Budget-3.jpg" alt="Budget 3" width="990" height="260" />
 
 ### **The Visualizations**
 
@@ -38,7 +38,7 @@ The data we analyzed comes from the  [2012-13 City of Sacramento Approved Budge
 
 We’ve attached a few static examples to this blog post, but you should head over to the [Open Budget Project page ][1]to check out the interactive Tableau version.
 
-<img class="alignnone size-full wp-image-770" src="http://code4sac.org/coders/wp-content/uploads/Budget-2.jpg" alt="Budget 2" width="954" height="276" />
+<img class="alignnone size-full wp-image-770" src="../images/posts/Budget-2.jpg" alt="Budget 2" width="954" height="276" />
 
 ### **The Data and the Process**
 

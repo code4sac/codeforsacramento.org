@@ -32,7 +32,7 @@ Nevertheless, it&#8217;s much more than we had to start with. Laci drove up from
 
 He&#8217;d already found some interesting (read: sad) information: Only about 13.5% of the wells &#8212; ~5,000/~37,000  &#8211; had enough data to qualify (more than 4 years of records). Many of the ones that didn&#8217;t qualify had no historical readings whatsoever. Here&#8217;s a teaser (grey + black mean insufficient data)
 
-[<img class="size-medium wp-image-754 aligncenter" src="http://code4sac.org/coders/wp-content/uploads/Screen-Shot-2014-10-04-at-10.35.51-AM-300x221.png" alt="Screen Shot 2014-10-04 at 10.35.51 AM" width="300" height="221" />][4]
+[<img class="size-medium wp-image-754 aligncenter" src="../images/posts/Screen-Shot-2014-10-04-at-10.35.51-AM-300x221.png" alt="Screen Shot 2014-10-04 at 10.35.51 AM" width="300" height="221" />][4]
 
 But information is information, and we&#8217;ve decided on a couple of goals to shoot for: be able to select well based on type (data/no data + declining/inclining water levels) and location (county/water basin).
 
@@ -41,4 +41,4 @@ We&#8217;re really excited to get this project off the ground (and into the clou
  [1]: http://www.nytimes.com/2014/10/03/us/california-drought-tulare-county.html?_r=0
  [2]: http://www.sacbee.com/2014/09/16/6711717/video-jerry-brown-signs-groundwater.html
  [3]: http://ca.statewater.org/
- [4]: http://code4sac.org/coders/wp-content/uploads/Screen-Shot-2014-10-04-at-10.35.51-AM.png
+ [4]: ../images/posts/Screen-Shot-2014-10-04-at-10.35.51-AM.png
