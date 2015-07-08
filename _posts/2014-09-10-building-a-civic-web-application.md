@@ -12,7 +12,7 @@ categories:
 
 This summer, the [California Department of Public Health][1] (CDPH) teamed up with [Code for Sacramento][2] to help launch the new CDPH <a title="The CDPH Open Data Portal" href="https://health.data.ca.gov/" target="_blank">open data portal</a>. This collaboration ended up being a great experience for everyone involved, and led to the creation of a new civic web application called [WICit][3], that helps people more easily find stores that accept [WIC][4].
 
-## [<img class="alignnone size-full wp-image-733" src="http://code4sac.org/coders/wp-content/uploads/cdphplusc4s2.png" alt="cdphplusc4s2" width="700" height="100" />][5]
+## [<img class="alignnone size-full wp-image-733" src="../images/posts/cdphplusc4s2.png" alt="cdphplusc4s2" width="700" height="100" />][5]
 
 We thought it would be informative to run down the process of creating the application, and the factors that helped make the collaboration between a government agency and a Code for America brigade go so smoothly.
 
@@ -40,11 +40,11 @@ Knowing that we had such an easy to use data source, we started designing and co
 
 On the client side, WICit uses the <a title="Angular" href="https://angularjs.org/" target="_blank">Angular framework</a>. The functionality of Angular is great (especially its data binding), but the design patterns it encourages, like dependency injection and separation of logic and presentation, are especially valuable for a team like ours. The availability of pre-existing Angular directives was also a big plus. WICit makes heavy use of the <a title="Angular Leaflet Directive" href="https://github.com/tombatossals/angular-leaflet-directive" target="_blank">angular-leaflet-directive</a> library, which is a really easy to use Angular directive for the incredible <a title="Leaflet.js" href="http://leafletjs.com/" target="_blank">Leaflet</a> library. As a bonus, we were able to contribute a couple of minor improvements to the angular-leaflet-directive project. It felt great to be able to use *and* contribute to an awesome open source project.<figure id="attachment_734" style="width: 700px;" class="wp-caption aligncenter">
 
-[<img class="wp-image-734 size-full" src="http://code4sac.org/coders/wp-content/uploads/logos.png" alt="logos" width="700" height="200" />][7]<figcaption class="wp-caption-text">WICit is powered by an assortment of third-party tech.</figcaption></figure> 
+[<img class="wp-image-734 size-full" src="../images/posts/logos.png" alt="logos" width="700" height="200" />][7]<figcaption class="wp-caption-text">WICit is powered by an assortment of third-party tech.</figcaption></figure> 
 
 Once we had the app running smoothly on a local development environment, it was time to move it to a public server. We chose [Amazon Web Services][8]&#8216; (AWS) Elastic Beanstalk tool to deploy WICit. AWS is an amazing set of services, and incredibly powerful. AWS is also a serious ally for civic tech organizations, and they&#8217;ve been super generous in offering credits to organizations like Code for Sacramento, to help us with our server needs. Getting WICit working on Elastic Beanstalk took a little bit of trial and error, but now the app is running on an fully scalable, zero downtime, no maintenance server architecture that we can deploy to with a single terminal command. Awesome.<figure id="attachment_736" style="width: 604px;" class="wp-caption alignnone">
 
-[<img class="wp-image-736 size-large" src="http://code4sac.org/coders/wp-content/uploads/finishedapp-1024x617.png" alt="finishedapp" width="604" height="363" />][9]<figcaption class="wp-caption-text">The finished WICit app.</figcaption></figure> 
+[<img class="wp-image-736 size-large" src="../images/posts/finishedapp-1024x617.png" alt="finishedapp" width="604" height="363" />][9]<figcaption class="wp-caption-text">The finished WICit app.</figcaption></figure> 
 
 ## The Takeaways
 
@@ -60,11 +60,11 @@ Collaborating with CDPH was a great experience. In the end, we not only demonstr
  [2]: http://code4sac.org "Code for Sacramento"
  [3]: http://findwic.com "WICit"
  [4]: http://www.fns.usda.gov/wic/women-infants-and-children-wic "WIC"
- [5]: http://code4sac.org/coders/wp-content/uploads/cdphplusc4s2.png
+ [5]: ../images/posts/cdphplusc4s2.png
  [6]: http://www.cdph.ca.gov/programs/wicworks/Pages/default.aspx "Official California WIC Site"
- [7]: http://code4sac.org/coders/wp-content/uploads/logos.png
+ [7]: ../images/posts/logos.png
  [8]: http://aws.amazon.com "AWS"
- [9]: http://code4sac.org/coders/wp-content/uploads/finishedapp.png
+ [9]: ../images/posts/finishedapp.png
  [10]: http://hackerlab.org/ "Sacramento Hacker Lab"
  [11]: http://twitter.com/TamaraIDEJA "@TamaraIDEJA"
  [12]: mailto:hello@codeforsacramento.org "Drop us a line!"
