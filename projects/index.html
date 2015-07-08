@@ -75,16 +75,18 @@ scripts: ['moment.js','handlebars.min.js','projects.js']
               <ul class="issues">
                 {{#each issues}}
                 <li>
-                  <div class="issue">
-                    <h6><a href='{{html_url}}'>{{title}}</a></h6>
-                    {{#if labels}}
-                    <div>
-                      {{#each labels}}
-                      <div class="issue-label" style="border: 1px solid #{{color}};background-color: #{{color}}">{{name}}</div>
-                      {{/each}}
+                  <a href='{{html_url}}'>
+                    <div class="issue">
+                      <h6>{{title}}</h6>
+                      {{#if labels}}
+                      <div>
+                        {{#each labels}}
+                        <div class="issue-label" style="border: 1px solid #{{color}};background-color: #{{color}}">{{name}}</div>
+                        {{/each}}
+                      </div>
                     </div>
-                  </div>
-                  {{/if}}
+                    {{/if}}
+                  </a>  
                 </li>
                 {{/each}}
               </ul>
