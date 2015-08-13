@@ -9,8 +9,8 @@
 			project.lastUpdateDaysFromNow = moment(project.last_updated).fromNow();
 		});
 		
-		var template = Handlebars.compile($("#project-template").html());
-		$("#projects").append(template({ projects: data.objects }));
+		var template = Handlebars.compile($('#project-template').html());
+		$('#projects').append(template({ projects: data.objects }));
 
 		if (data.pages.next) {
 			$.getJSON(data.pages.next)
@@ -19,7 +19,7 @@
 	};
 	
 	$(document).ready(function () {
-		
+    
 		$.getJSON(cfapi)
 		.done(displayProjects);
 	});
