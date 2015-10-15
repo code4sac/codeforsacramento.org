@@ -8,7 +8,7 @@ permalink: /fppc/
   <h2>Evaluating Campaign Finance and Lobbying Data Platforms</h2>
   <p>Data about money and politics is available from many different sources. Some platforms are better than others and the <a href="http://www.fppc.ca.gov/">California Fair Political Practices Commission</a> (FPPC) is interested in hearing from the developer community about what works and what doesn’t in this space.</p>
   <p>
-    <a class="btn btn-lg btn-success" href="" role="button"><i class="fa fa-bullhorn"></i></li> Take the Survey</a>
+    <a class="btn btn-lg btn-success" href="https://ashroughani.typeform.com/to/OGBKj4" target="_blank" role="button"><i class="fa fa-bullhorn"></i></li> Take the Survey</a>
     <a class="btn btn-lg btn-primary" href="#platforms" role="button"><i class="fa fa-terminal"></i></li> Browse the Platforms</a>
   </p>
 </div>
@@ -17,7 +17,6 @@ permalink: /fppc/
 <div class="row">
   <div class="col-sm-12">
     <h2>Help Wanted</h2><hr>
-    <p class="lead">How might civic technologists build interfaces that help voters better understand how money is used in elections? Are existing application programming interfaces (APIs) usable or does the State of California need a new platform?</p>
     <p class="lead">The FPPC is the state’s political watchdog agency, and <a href="/">Code for Sacramento</a> and <a href="http://hackerlab.org/">Hacker Lab</a> have teamed up to help the FPPC get answers to these questions from web developers who can offer a critical perspective.</p>
   </div>
 </div>
@@ -95,9 +94,10 @@ permalink: /fppc/
 <!-- Second Call to Action -->
 <div class="row">
   <div class="col-sm-12">
-    <h3>What do you think?</h3><hr>
+    <h2>Tell us what you think!</h2><hr>
+    <p class="lead">How might civic technologists build interfaces that help voters better understand how money is used in elections? Are existing application programming interfaces (APIs) usable or does the State of California need a new platform?</p>
     <p>
-      <a class="btn btn-lg btn-success" href="" role="button"><i class="fa fa-bullhorn"></i></li> Take the Survey</a>
+      <a class="btn btn-lg btn-success" href="https://ashroughani.typeform.com/to/OGBKj4" target="_blank" role="button"><i class="fa fa-bullhorn"></i></li> Take the Survey</a>
     </p>
   </div>
 </div>
