@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-sm-12">
+    <h3>Our Supporters</h4>
+    <p class="lead">We rely on the help of financial and in-kind supporters to sustain our efforts. By supporting Code for Sacramento with a tax-deductible contribution, your organization will receive recognition at our events and through our many communications channels. Funds go directly toward web hosting, meeting space, and food and beverages for our awesome volunteers.</p>
+  </div>
+</div>
+
+<div class="row vertical-align">
+  {% for supporter in site.data.supporters %}
+  <div class="col-md-4">
+    <a href="{{ supporter.website }}" target="_blank">
+      <img class="img-responsive" src="/images/supporters/{{ supporter.logo }}">
+    </a>
+  </div>
+  {% endfor %}
+</div>

@@ -1,7 +1,7 @@
 ---
 title: Contact
 author: Code for Sacramento
-layout: page
+layout: default
 permalink: /contact/
 ---
 

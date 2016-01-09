@@ -1,14 +1,29 @@
 /* Sitewide styles */
 body {
   padding-top: 64px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 footer {
   margin: 2em 0;
+}
+footer p {
+  font-size: 14px;
 }
 footer li {
   float: right;
   margin-right: 1.5em;
   margin-bottom: 1.5em;
+}
+.lead {
+  font-size: 24px;
+}
+#navbar {
+  font-size: 14px;
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
 }
 /* Home page cover */
 .bg-img {

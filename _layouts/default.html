@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include head.html %}
+{% include shared/head.html %}
 
-  {% include header.html %}
+  {% include shared/header.html %}
 
     <body>
 
       <div class="container">
-        {{ content }}
+
+        <div class="row">
+          <h2>{{ page.title }}</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8">
+            {{ content }}
+          </div>
+          <div class="col-md-4">
+            {% include shared/twitter-widget.html %}
+          </div>
+        </div>
+
       </div>
 
-      {% include footer.html %}
+      {% include shared/email_sign_up_form.html %}
+
+      {% include shared/footer.html %}
 
     </body>
 

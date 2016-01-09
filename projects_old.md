@@ -1,7 +1,7 @@
 ---
 title: Our Projects
 author: Code for Sacramento
-layout: page
+layout: default
 permalink: /projects_old/
 ---
 
