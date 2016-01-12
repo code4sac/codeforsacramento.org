@@ -25,6 +25,9 @@ footer li {
     display: flex;
     align-items: center;
 }
+.cushion-top {
+  padding-top: 45px;
+}
 /* Home page cover */
 .bg-img {
   width: 100%;
