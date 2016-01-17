@@ -28,6 +28,13 @@ footer li {
 .cushion-top {
   padding-top: 45px;
 }
+.cushion-bottom {
+  padding-bottom: 50px;
+}
+.horizontal-icons li {
+  display: inline;
+  margin-right: 10px;
+}
 /* Home page cover */
 .bg-img {
   width: 100%;

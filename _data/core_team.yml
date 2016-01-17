@@ -1,0 +1,28 @@
+- name: Joel Riphagen
+  title: Director
+  headshot:
+  bio:
+  email:
+  twitter:
+  linkedin:
+- name: Ash Roughani
+  title: Civic Tech Evangelist
+  headshot: ash_roughani.jpg
+  bio: Ash started Code for Sacramento in December 2012 with the help of Gina Alatorre and Eric Ullrich of Hacker Lab. With a background in public policy and administration, Ash changed careers to work in civic tech and social entrepreneurship with a belief that interfaces to government are just as important as the policy choices we make. He's also founder of <a href="https://deliveryunit.co">Delivery Unit</a>, an early stage enterprise software company focused on performance management for government and nonprofits.
+  email: ash.roughani@gmail.com 
+  twitter: Roughani
+  linkedin: https://www.linkedin.com/in/ashroughani
+- name: Brandon Pugh
+  title:
+  headshot:
+  bio:
+  email:
+  twitter:
+  linkedin:
+- name: Rasheed Bustamam
+  title:
+  headshot:
+  bio:
+  email:
+  twitter:
+  linkedin:
