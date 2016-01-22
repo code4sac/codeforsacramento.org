@@ -23,3 +23,6 @@ Temporary Items
 # Jekyll
 _site/
 .sass-cache/
+
+# idea
+.idea/
