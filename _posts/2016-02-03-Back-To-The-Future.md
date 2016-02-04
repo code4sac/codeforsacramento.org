@@ -4,7 +4,7 @@ author: Brandon Pugh
 layout: post
 permalink: /Back-To-The-Future/
 categories: 
-- blog
+  - blog
 ---
 
 It’s no secret that we have transitioned into an age of technology. We are now able to instantly access and share information from almost anywhere in the world. A large number of businesses have either evolved and adapted to use technology, or have closed their doors. Devices like fax machines and even home phone are being used less and less. Its now possible to live, learn, work and shop from the comfort of you own couch if you so choose. The bottom line is, technology has the power to make communication faster, easier, and more efficient. 
