@@ -2,7 +2,7 @@
 title: "Back to the Future: From Industry to Technology"
 author: Brandon Pugh
 layout: post
-permalink: /Back-To-The-Future/
+permalink: /back-to-the-future/
 categories: 
   - blog
 ---
