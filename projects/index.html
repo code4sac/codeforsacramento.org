@@ -2,11 +2,11 @@
 layout: default
 title: 'Our Projects'
 scripts: ['moment.js','handlebars.min.js','projects.js']
----	
+---
 <script src="../js/handlebars.min.js"></script>
 <section class="container-fluid">
 	<div id="projects">
-	
+
 	</div>
 </section>
 
@@ -16,8 +16,8 @@ scripts: ['moment.js','handlebars.min.js','projects.js']
 
 	<div class="row">
 		<div class="col-sm-12">
-			<h1>{{name}}</h1>
-			<p class="lead">{{description}}</p>
+			<h3>{{name}}</h3>
+			<p>{{description}}</p>
 			<div class="row">
 				<div class="col-md-5">
 					{{#if link_url}}
@@ -86,7 +86,7 @@ scripts: ['moment.js','handlebars.min.js','projects.js']
                       </div>
                     </div>
                     {{/if}}
-                  </a>  
+                  </a>
                 </li>
                 {{/each}}
               </ul>
@@ -107,4 +107,3 @@ scripts: ['moment.js','handlebars.min.js','projects.js']
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="../js/moment.js"></script>
 <script src="../js/projects.js"></script>
-
