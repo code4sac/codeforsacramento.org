@@ -110,3 +110,11 @@ footer li {
   padding: 0 10px;
   font-size: 0.85em;
 }
+
+.form-control {
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+}
+label.error {
+  text-align: left;
+}
