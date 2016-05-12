@@ -126,6 +126,6 @@ label.error {
 }
 
 #main-description {
-  background-color: blue;
-  color: white;
+  background-color: #fafafa;
+  padding-top: 45px;
 }
