@@ -1,0 +1,12 @@
+- name: Open Budget Sacramento
+  description: Visualize where the money comes from and how it's spent.
+  image: openbudget.png
+  url: http://openbudgetsac.org/
+- name: SacSOS
+  description: Find community services in Sacramento County.
+  image: sacsos.png
+  url: http://sacsos.org/
+- name: Polling Place Accessibility
+  description: Learn about the accessibility of polling locations.
+  image: pollingplaces.png
+  url: http://abustamam.github.io/polling-place-accessibility/
