@@ -124,3 +124,8 @@ footer li {
 label.error {
   text-align: left;
 }
+
+#main-description {
+  background-color: blue;
+  color: white;
+}
