@@ -1,0 +1,4 @@
+---
+layout: skills
+permalink: /skills/
+---

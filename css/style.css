@@ -125,7 +125,11 @@ label.error {
   text-align: left;
 }
 
-#main-description {
+#main-description, #io-cupid {
   background-color: #fafafa;
   padding-top: 45px;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
 }
