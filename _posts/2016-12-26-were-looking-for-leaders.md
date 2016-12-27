@@ -14,7 +14,8 @@ Code for Sacramento began in 2012 as a group of volunteers, trying to build tech
 
 **With all this change, we need new ideas and new people to contribute their time to keep us moving in the right direction. And we need your help.**
 
-###Saved by the Brigade: The New Class
+Saved by the Brigade: The New Class
+===================================
 
 We are looking for people to make a one year commitment to become part of Code for Sacramento’s leadership team. We’ve got a number of roles and responsibilities we need help with, and these can be divided among responsible parties in a few different ways. Our two primary lead positions are Delivery and Community Engagement; we absolutely need to bring a couple of folks on to fill these roles. We also need help with event organizing and communicating, and these roles can be filled by other individuals or teams, or they can be added to the roles of the two main leads. If you want to help, but don’t feel ready to take on a lead role, you can also let us know you’re interested in providing support in one or more of these areas. Read on for more detailed job descriptions.
 
