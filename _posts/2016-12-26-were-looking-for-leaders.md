@@ -46,6 +46,7 @@ Code for Sacramento Lead Roles
 ------------------------------
 
 **Delivery Lead: The What**
+
 Many of our members have great ideas for projects, but often those ideas can stagnate without the right combination of skills, partnership, and organization. The **Delivery Lead** advises maintainers on how to thoughtfully advance their project through development stages to create a truly impactful product. He/She is also responsible for managing projects that Code for Sacramento itself undertakes in conjunction with (and potentially under contract with) government and community partners. The person in this role needs to have a general knowledge of all active projects and communicate regularly with project maintainers. For this position, a person should be well-organized, proactive in communicating, and maintain a general knowledge of tech processes.
 
 Points of ownership include (but are not limited to):
@@ -57,6 +58,7 @@ Points of ownership include (but are not limited to):
 - Working closely with the Community Engagement Lead to pair members with appropriate projects
 
 **Community Engagement Lead: The Who**
+
 As a volunteer-based group, it’s important to provide our members with a positive, fulfilling experience. Civic innovation is driven by engaged individuals, and our role is to bring those people together to make real change happen. The **Community Engagement Lead** focuses on creating value for brigade members and growing the community. Ideally, the person in this role works very well with all personality types, can effectively articulate the mission of Code for Sacramento, and holds a general knowledge of the civic tech community in the larger Sacramento context.
 
 Points of ownership include (but are not limited to):
@@ -67,6 +69,7 @@ Points of ownership include (but are not limited to):
 - Identify member goals at all levels and helping members achieve those goals
 
 **Events: The When and Where**
+
 Between weekly hack nights, larger thematic hackathons, collaborative programming, and conferences, we have a lot of events (often simultaneously). For a seamless experience, we need help with event logistics and planning, including catering, location, materials and setup, participant experience, etc. Our current plan is to divide this role up among members of the core team, so that each person is responsible for a fraction of our events. We welcome the interest of outgoing, personable individuals to take on all or a portion of this workload.
 
 Points of ownership include (but are not limited to):
@@ -77,6 +80,7 @@ Points of ownership include (but are not limited to):
 - Communicate with sponsors regarding food/drinks; set up space with refreshments, working materials, promo materials
 
 **Communications: The Why**
+
 At Code for Sacramento, we do a lot of cool stuff. The doing part is easy and fun, but the telling part isn’t so obvious. We can always use help in artfully telling the story of our community. This means strategizing marketing/public relations, documenting member projects and efforts, soliciting and interacting with press, and establishing a metrics structure. For this role, the right match is someone strongly interested in crafting narratives, having a sense of interactive marketing practices, and confidently representing Code for Sacramento.
 
 Points of ownership include (but are not limited to):
@@ -90,6 +94,7 @@ Points of ownership include (but are not limited to):
 [**To indicate your interest in any of these roles, please fill out this quick form before Monday, January 16, 2017!**](https://codeforsacramento.typeform.com/to/DTlt66)
 
 **About Code for Sacramento**
+
 _Code for Sacramento is a volunteer-driven Code for America Brigade, a group of civic hackers (designers, developers, data scientists, urbanists and community organizers) who contribute our talents toward improving the way our community interacts with local government by advocating for open data and using it to create apps and shared resources. We meet every Wednesday night at The Urban Hive or the Hacker Lab in midtown Sacramento._
 
 _Code for Sacramento is fiscally sponsored by the I/O Labs Foundation, a California 501(c)(3) nonprofit corporation._
