@@ -1,9 +1,6 @@
 - name: City of Sacramento
   logo: city_of_sacramento.png
   website: http://www.cityofsacramento.org/
-- name: Trinity Technology Group
-  logo: trinity_technology_group.png
-  website: http://trinitytg.com/
 - name: Hacker Lab
   logo: hacker_lab.png
   website: http://hackerlab.org/
