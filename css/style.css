@@ -133,3 +133,8 @@ label.error {
 .jumbotron {
   margin-bottom: 0px;
 }
+
+/* job section styles */
+section#job {
+  padding-bottom: 5px
+}
