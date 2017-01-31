@@ -5,7 +5,9 @@ Code for Sacramento is a platform for civic innovation. As an open source organi
 
 ### Requirements
 * [Ruby 1.9.3 or later](https://www.ruby-lang.org/en/documentation/installation/)
+	* Run ```brew install ruby;brew link ruby;xcode-select --install``` if on Mac
 * [Bundler](http://bundler.io/)
+	* Run ```gem install bundler```
 * [Git](https://git-scm.com/downloads)
 * Text Editor
 
