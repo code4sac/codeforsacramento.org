@@ -18,10 +18,10 @@ Code for Sacramento is a platform for civic innovation. As an open source organi
 `bundle`
 
 #### Build the Pages
-`jekyll build`
+`bundle exec jekyll build`
 
 #### Serve the Pages
-`jekyll serve --watch`
+`bundle exec jekyll serve --watch`
 
 ### Hack Away
 
