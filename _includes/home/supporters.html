@@ -11,7 +11,7 @@
       {% for supporter in site.data.supporters %}
       <div class="col-md-4">
         <a href="{{ supporter.website }}" target="_blank">
-          <img class="img-responsive" src="/images/supporters/{{ supporter.logo }}">
+          <img class="img-responsive" src="{{ site.github.url }}/images/supporters/{{ supporter.logo }}">
         </a>
       </div>
       {% endfor %}
