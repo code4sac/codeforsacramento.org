@@ -1,6 +1,6 @@
 (function () {
 	
-	var cfapi = 'http://codeforamerica.org/api/organizations/Code-for-Sacramento/projects';
+	var cfapi = 'http://api.codeforamerica.org/api/organizations/Code-for-Sacramento/projects';
 
 	var displayProjects = function (data) {
 
