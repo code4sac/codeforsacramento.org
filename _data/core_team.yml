@@ -5,6 +5,15 @@
   email: joel@codeforsacramento.org
   twitter: joelrip
   linkedin: https://www.linkedin.com/in/joelriphagen
+
+- name: Kaleb Clark
+  title: Delivery Lead
+  headshot: kaleb_clark.png
+  bio: Kaleb has worked in the IT industry for over 20 years which included a 9+ year run working for a local government. From the mid-late 90's Kaleb has worked with Linux and the open-source community continually to this day. He is also a back end developer working mostly in PHP, Laravel, Python and Perl (yes, Perl).
+  email: kaleb@codeforsacramento.org
+  twitter: KalebJClark
+  linkedin: https://www.linkedin.com/in/kalebjclark
+
 - name: Ash Roughani
   title: Civic Tech Evangelist
   headshot: ash_roughani.jpg
