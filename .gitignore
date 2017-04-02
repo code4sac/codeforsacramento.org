@@ -6,6 +6,7 @@ dist/
 node_modules/
 build/
 *.json
+!projects/*.json
 gulpfile.js
 
 # C4S ideas dir

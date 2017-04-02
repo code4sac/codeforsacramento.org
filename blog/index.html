@@ -7,6 +7,7 @@ layout: default
 
 <ul class="list-unstyled">
   {% for post in paginator.posts %}
+    {% if post.layout == 'post' %}
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -17,6 +18,7 @@ layout: default
       {{ post.excerpt }}
 
     </li>
+    {% endif %}
   {% endfor %}
 </ul>
 

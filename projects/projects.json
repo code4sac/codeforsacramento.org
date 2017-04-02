@@ -1,0 +1,26 @@
+---
+title: 'Our Projects'
+---
+[
+  {% for project in site.categories.projects %}
+    {% if project.status == "active" %}
+      {
+        "title": "{{ project.title }}",
+        "github_url": "{{ project.gh_url }}",
+        "url": "{{ project.prod_url }}",
+        "description": "{{ project.excerpt | newline_to_br }}",
+        "issues": [
+            {% assign issue = project.issues | join: '", "' %}
+        "{{ issue }}"
+        ],
+        "skills": [
+            {% assign skill = project.skills | join: '", "' %}
+        "{{ skill }}"
+        ]
+      }
+      {% if forloop.last == false %}
+      ,
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+]
