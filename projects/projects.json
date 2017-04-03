@@ -8,7 +8,7 @@ title: 'Our Projects'
         "title": "{{ project.title }}",
         "github_url": "{{ project.gh_url }}",
         "url": "{{ project.prod_url }}",
-        "description": "{{ project.excerpt | newline_to_br }}",
+        "description": "{{ project.excerpt |  strip_newlines }}",
         "issues": [
             {% assign issue = project.issues | join: '", "' %}
         "{{ issue }}"
