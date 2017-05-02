@@ -138,3 +138,7 @@ label.error {
 section#job {
   padding-bottom: 5px
 }
+
+.donate-btn {
+    margin-top: -7px;
+}
