@@ -142,3 +142,10 @@ section#job {
 .donate-btn {
     margin-top: -7px;
 }
+
+.bigdog-img {
+    width: 100%;
+    height: 600px;
+    background: url('/images/bigdog-2017-fb.jpg') center center no-repeat;
+    background-size: cover;
+}
