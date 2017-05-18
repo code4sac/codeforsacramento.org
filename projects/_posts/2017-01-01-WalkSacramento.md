@@ -34,4 +34,12 @@ tags:
 
 
 
-Walk Sacramento is currently using a Google Fusion Table to map data.
+Walk Sacramento is a nonprofit community organization that needed a way to display manually collected data in a
+meaningful way. Code for Sacramento was able to help by feeding this information into a Google Fusion Table so it
+could be displayed on their website.
+
+<br/>
+<h4>Walk Sacramento Mission Statement</h4>
+"WALKSacramento is a nonprofit community organization leading the region in developing safe, walkable communities that promote health and economic growth.
+We work with transportation and land use planners, elected officials and community groups to create safe, walkable environments for all citizens and
+particularly for children, seniors, the disabled and low-income individuals. "

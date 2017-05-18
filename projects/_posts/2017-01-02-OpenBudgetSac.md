@@ -10,6 +10,9 @@ layout: project
 permalink: /openbudgetsac/
 main_image:
   -
+
+needs:
+    - Update dataset with current city data
 stack:
     - R
     - Jekyll
@@ -34,4 +37,5 @@ tags:
   - Finance
 ---
 
-The City of Sacramento spends nearly $1 billion annually to deliver services and fund government operations.
+Data visualizations created by Code for Sacramento volunteers from city budget data. These visualizations show
+revenues and expenses, infographics, and allow you to build your own custom queries.

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Our Projects'
+title: 'Code for Sacramento Projects'
 scripts: ['moment.js','handlebars.min.js','projects.js']
 ---
 
@@ -15,30 +15,30 @@ scripts: ['moment.js','handlebars.min.js','projects.js']
 
 
 
-    <!--<h2> Active Projects </h2>-->
-    <!--<hr>-->
-    <!--<div id="active-projects">-->
-        <!--{% for project in site.categories.projects %}-->
-            <!--{% if project.status == "active" %}-->
-                <!--<h4>-->
-                    <!--<a class="post-link" href="{{ project.url }}">{{ project.title }}</a>-->
-                <!--</h4>-->
+    <h2> Active Projects </h2>
+    <hr>
+    <div id="active-projects">
+        {% for project in site.categories.projects %}
+            {% if project.status == "active" %}
+                <h3>
+                    <a class="post-link" href="{{ project.url }}">{{ project.title }}</a>
+                </h3>
 
-                <!--<div class="gh-data" data-repo="{{ project.ghrepo }}">-->
-                    <!--<p>-->
-                        <!--{{ project.excerpt}}-->
-                    <!--</p>-->
-                    <!--<h5>Tags</h5>-->
-                    <!--{% for tag in project.tags %}-->
-                    <!--<span class="label label-info"> {{ tag }}</span>-->
-                    <!--{% endfor %}-->
-                <!--</div>-->
-        <!--<br>-->
-            <!--{% endif %}-->
-        <!--{% endfor %}-->
-    <!--</div>-->
-    <!--<h2> All Projects </h2>-->
-    <!--<hr>-->
+                <div class="gh-data" data-repo="{{ project.ghrepo }}">
+                    <p>
+                        {{ project.excerpt}}
+                    </p>
+                    <h5>Tags</h5>
+                    {% for tag in project.tags %}
+                    <span class="label label-info"> {{ tag }}</span>
+                    {% endfor %}
+                </div>
+        <br>
+            {% endif %}
+        {% endfor %}
+    </div>
+    <h2> All Projects </h2>
+    <hr>
 
 
 
