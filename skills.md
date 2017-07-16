@@ -1,5 +1,5 @@
 ---
-title: Signup Up
+title: Signup
 author: Code for Sacramento
 layout: default
 permalink: /skills/
