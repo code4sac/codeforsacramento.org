@@ -1,5 +1,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<form id="myForm" class="ajaxForm signup_form" enctype="multipart/form-data">
+<form id="myForm" class="ajaxForm signup_form" enctype="multipart/form-data" action="/">
   <div class="row">
     <div class="col-md-6">
       <div class="form-group">
@@ -223,7 +223,6 @@
 <script language="javascript" type="text/javascript">
   $(function() { //shorthand document.ready function
     $('#myForm').on('submit', function(e) { //use on if jQuery 1.7+
-        e.preventDefault();  //prevent form from submitting
         var checkBoxes = document.querySelectorAll('input[name=labeled_tags]:checked');
         var firstName = $("#signup_first_name").val();
         var lastName = $("#signup_last_name").val();
@@ -249,7 +248,23 @@
             "city": addressCity
           }
         };
-        console.log(varData);
+        $.ajax({
+          url: 'http://mockbin.org/bin/fa0a133f-716b-4406-8483-9d1369ef9c23',
+          type: 'POST',
+          data: JSON.stringify(varData),
+          headers: {},
+          contentType: 'application/json; charset=utf-8',
+          dataType: 'json',
+          async: false,
+          success: function(msg) {
+            console.log(msg);
+            alert("hello world");
+          },
+          error: function(msg) {
+            console.log(msg);
+            alert("goodbye world");
+          }
+      });
     });
   });
 </script>
