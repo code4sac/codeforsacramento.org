@@ -1,3 +1,5 @@
+gems: [jekyll-paginate]
+
 # Site settings
 title: Code for Sacramento
 email: hello@codeforsacramento.org
