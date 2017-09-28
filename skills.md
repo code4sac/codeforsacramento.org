@@ -1,8 +1,6 @@
 ---
-title: Signup
+title: skills
 author: Code for Sacramento
-layout: default
-permalink: /signup/
+layout: skills
+permalink: /skills/
 ---
-
-{% include shared/signup_form.html %}
