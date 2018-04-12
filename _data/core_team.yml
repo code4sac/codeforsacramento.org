@@ -1,28 +1,21 @@
-- name: Joel Riphagen
+- name: Ryan Malhoski
   title: Captain
-  headshot: joel_riphagen.jpg
-  bio: Joel had a 15-year career in state and local government, including several years working for the California Legislature, before striking out on his own as an independent consultant in 2014. Simulaneously, he started showing up at Code for Sacramento meetings and liked what he saw. Joel is committed to better connecting citizens to government data and services, conducting cutting-edge data analysis, creating informative data visualizations, and raising his two sons, though not necessarily in that order.
-  email: joel@codeforsacramento.org
-  twitter: joelrip
-  linkedin: https://www.linkedin.com/in/joelriphagen
+  headshot: ryan_malhoski.jpg
+  bio: Ryan is GIS developer with the City of Sacramento and has over 8 years experience in federal and local government developing GIS and web application solutions. Ryan was first invited to Code for Sacramento by co-captain Maya Wallace and found a group of people that are passionite in creating civic technology and improving access to government data.
+  email: ryan@codeforsacramento.org
+  twitter: l84tahoe
+  linkedin: https://www.linkedin.com/in/ryanmalhoski
 
 - name: Kaleb Clark
-  title: Delivery Lead
+  title: Co-Captain
   headshot: kaleb_clark.png
   bio: Kaleb has worked in the IT industry for over 20 years which included a 9+ year run working for a local government. From the mid-late 90's Kaleb has worked with Linux and the open-source community continually to this day. He is also a back end developer working mostly in PHP, Laravel, Python and Perl (yes, Perl).
   email: kaleb@codeforsacramento.org
   twitter: KalebJClark
   linkedin: https://www.linkedin.com/in/kalebjclark
 
-- name: Ash Roughani
-  title: Civic Tech Evangelist
-  headshot: ash_roughani.jpg
-  bio: Ash started Code for Sacramento in December 2012 with the help of Gina Alatorre and Eric Ullrich of Hacker Lab. With a background in public policy and administration, Ash changed careers to work in civic tech and social entrepreneurship with a belief that interfaces to government are just as important as the policy choices we make. He's also founder of <a href="https://deliveryunit.co">Delivery Unit</a>, an early stage enterprise software company focused on performance management for government and nonprofits.
-  email: ash.roughani@gmail.com
-  twitter: Roughani
-  linkedin: https://www.linkedin.com/in/ashroughani
 - name: Maya Wallace
-  title: Civic Catalyst
+  title: Co-Captain
   headshot: maya_wallace.png
   bio: Maya is interested in empowering communities through data and information. She has worked as a science curriculum designer, community advocate, state government performance auditor, and led strategic communications efforts for organizations addressing housing, public health, smart growth, and sustainable communities. This broad spectrum of experience has sparked her interest in improving the citizen experience around government and other social institutions via open data.
   email: maya@codeforsacramento.org
