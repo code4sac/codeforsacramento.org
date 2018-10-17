@@ -90,6 +90,9 @@ footer li {
 .contributor-owner img {
   border: 1px solid darkgray;
 }
+.project-info {
+  word-break: break-all;
+}
 .issues {
   list-style-type: none;
   padding: 0 10px;
