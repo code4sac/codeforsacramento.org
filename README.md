@@ -17,7 +17,7 @@ Code for Sacramento is a platform for civic innovation. As an open source organi
 `docker build . -t code4sac/codeforsacramento.org`
 
 #### Run Docker image
-`docker run -it -p 4000:4000 -v $(pwd):/usr/src/app co4sac/codeforsacramento.org`
+`docker run -it -p 4000:4000 -v $(pwd):/usr/src/app code4sac/codeforsacramento.org`
 Keep this tab open and running while you are viewing/editing.  Press ctrl + c to exit when you are finished.
 
 
