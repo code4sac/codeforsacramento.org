@@ -1,10 +1,10 @@
-- name: Ryan Malhoski
+- name: Dan Fey
   title: Captain
-  headshot: ryan_malhoski.jpg
-  bio: Ryan is GIS developer with the City of Sacramento and has over 8 years experience in federal and local government developing GIS and web application solutions. Ryan was first invited to Code for Sacramento by co-captain Maya Wallace and found a group of people that are passionite in creating civic technology and improving access to government data.
-  email: ryan@codeforsacramento.org
-  twitter: l84tahoe
-  linkedin: https://www.linkedin.com/in/ryanmalhoski
+  headshot: dan_fey.jpg
+  bio: Dan is a back end software engineer with experiences in application development, distributed systems, and databases.  He has been involved with Code For Sacramento since January 2018.  Dan loves working with others on open source projects to help the community.
+  email: dan@codeforsacramento.org
+  twitter: 
+  linkedin: https://www.linkedin.com/in/feydan/
 
 - name: Kevin Fries
   title: Co-Captain
@@ -21,6 +21,7 @@
   email: maya@codeforsacramento.org
   twitter: mayagirl
   linkedin: https://wwww.linkedin.com/in/mayawallace
+  
 # - name: Brandon Pugh
 #   title:
 #   headshot:
@@ -35,3 +36,11 @@
 #  email: rasheed.bustamam@gmail.com
 #  twitter: abustamam
 #  linkedin: https://www.linkedin.com/in/ashroughani
+
+#- name: Ryan Malhoski
+#  title: Captain
+#  headshot: ryan_malhoski.jpg
+#  bio: Ryan is GIS developer with the City of Sacramento and has over 8 years experience in federal and local government developing GIS and web application solutions. Ryan was first invited to Code for Sacramento by co-captain Maya Wallace and found a group of people that are passionite in creating civic technology and improving access to government data.
+#  email: ryan@codeforsacramento.org
+#  twitter: l84tahoe
+#  linkedin: https://www.linkedin.com/in/ryanmalhoski
