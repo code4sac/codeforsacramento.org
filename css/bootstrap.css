@@ -19,7 +19,7 @@ article,
 aside,
 details,
 figcaption,
-figure,
+
 footer,
 header,
 hgroup,
@@ -3940,10 +3940,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  padding: 20.5px 15px;
+  padding: 15px;
   font-size: 17px;
   line-height: 23px;
-  height: 64px;
+  height: 70px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
