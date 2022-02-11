@@ -10,137 +10,128 @@ scripts: ['moment.js','handlebars.min.js','projects.js']
 </div>
 <script src="../js/handlebars.min.js"></script>
 
-
 <section class="container-fluid">
-
-
-
-    <h2> Active Projects </h2>
-    <hr>
-    <div id="active-projects">
-        {% for project in site.categories.projects %}
-            {% if project.status == "active" %}
-                <h3>
-                    <a class="post-link" href="{{ project.url }}">{{ project.title }}</a>
-                </h3>
-
-                <div class="gh-data" data-repo="{{ project.ghrepo }}">
-                    <p>
-                        {{ project.excerpt}}
-                    </p>
-                    <h5>Tags</h5>
-                    {% for tag in project.tags %}
-                    <span class="label label-info"> {{ tag }}</span>
-                    {% endfor %}
-                </div>
-        <br>
-            {% endif %}
-        {% endfor %}
-    </div>
-    <h2> All Projects </h2>
-    <hr>
-
-
-
-
 	<div id="projects">
 
 	</div>
 </section>
 
-{% raw %}
-<script id="project-template" type="text/x-handlebars-template">
-  {{#each projects}}
+<script type="text/javascript">
+	// adapted from https://github.com/helpers/handlebars-helpers/blob/master/lib/string.js#L596-L608
+	Handlebars.registerHelper('titleize', function(str) {
+		var title = str.replace(/[- _]+/g, ' ');
+		var words = title.split(' ');
+		var len = words.length;
+		var res = [];
+		var i = 0;
+		while (len--) {
+			var word = words[i++];
+			res.push(word.charAt(0).toUpperCase() + word.slice(1));
+		}
+		return res.join(' ');
+	});
+</script>
 
-	<div class="row">
-		<div class="col-sm-12">
-			<h3>{{name}}</h3>
-			<p>{{description}}</p>
+{% raw %}
+	<script id="project-template" type="text/x-handlebars-template">
+		{{#each projects}}
+
+			<hr>
 			<div class="row">
-				<div class="col-md-5 project-info">
+				<h3>
 					{{#if link_url}}
-					<span class="glyphicon glyphicon-home"></span>
-					<a href="{{link_url}}">{{link_url}}</a>
-					<br />
+						<a href="{{link_url}}">{{titleize name}}</a>
+					{{else}}
+						{{titleize name}}
 					{{/if}}
-					{{#if code_url}}
+				</h3>
+
+				<p>{{description}}</p>
+
+				{{#if code_url}}
 					<i class="fa fa-github-square"></i>
 					<a href="{{code_url}}">{{code_url}}</a>
 					<br />
-					{{/if}}
-					<strong>Last Updated: </strong>{{lastUpdateDaysFromNow}}
-					<br />
-					{{#if github_details.language}}
+				{{/if}}
+
+				<strong>Last Updated: </strong>{{lastUpdateDaysFromNow}}
+				<br />
+
+				{{#if github_details.language}}
 					<strong>Language: </strong>{{github_details.language}}
 					<br />
-					{{/if}}
-          {{#if github_details.open_issues}}
-          <strong>Open Issues: </strong>
-          <a href="#" data-toggle="modal" data-target="#issues-{{id}}">{{github_details.open_issues}} - Get Involved!</a>
-          <br />
-          {{/if}}
-				</div>
-				<div class="col-md-offset-1 col-md-6">
-					{{#if github_details}}<strong>Contributors:</strong>{{/if}}
+				{{/if}}
+
+				{{#if github_details.open_issues}}
+					<strong>Open Issues: </strong>
+					<a href="#" data-toggle="modal" data-target="#issues-{{id}}">{{github_details.open_issues}} - Get Involved!</a>
+					<br />
+				{{/if}}
+			</div>
+
+			<div class="row">
+				{{#if github_details}}
+					<strong>Contributors:</strong>
 					<p class='contributors'>
 						{{#if github_details.owner}}
-						{{#with github_details.owner}}
-						<a href='{{html_url}}' class='contributor-owner'>
-							<img class='img-thumbnail' src='{{avatar_url}}' alt='Owner: {{login}}' title='Owner: {{login}}'/></a>
-						<span style='display: none;'>{{login}}</span>
-						{{/with}}
+							{{#with github_details.owner}}
+								<a href='{{html_url}}' class='contributor-owner'>
+									<img class='img-thumbnail' src='{{avatar_url}}' alt='Owner: {{login}}' title='Owner: {{login}}'/></a>
+								<span style='display: none;'>{{login}}</span>
+							{{/with}}
 						{{/if}}
 						{{#each github_details.contributors}}
-						<a href='{{html_url}}'>
-							<img class='img-thumbnail' src='{{avatar_url}}' alt='{{login}}' title='{{login}}'/>
-						</a>
-						<span style='display: none;'>{{login}}</span>
+							<a href='{{html_url}}'>
+								<img class='img-thumbnail' src='{{avatar_url}}' alt='{{login}}' title='{{login}}'/>
+							</a>
+							<span style='display: none;'>{{login}}</span>
 						{{/each}}
 					</p>
-				</div>
+
+					{{#if github_details.open_issues}}
+						<div class="modal fade" id='issues-{{id}}' tabindex="-1" role="dialog" aria-labelledby="issuesModal-{{id}}" aria-hiddne="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+										<h4 id="issuesTitle-{{id}}" class="modal-title">Open issues for {{name}}</h4>
+									</div>
+									<div class="modal-body">
+										<ul class="issues">
+											{{#each issues}}
+												<li>
+													<a href='{{html_url}}'>
+														<div class="issue">
+															<h6>{{title}}</h6>
+															{{#if labels}}
+																<div>
+																	{{#each labels}}
+																		<div class="issue-label" style="border: 1px solid #{{color}};background-color: #{{color}}">{{name}}</div>
+																	{{/each}}
+																</div>
+															{{/if}}
+														</div>
+													</a>
+												</li>
+											{{/each}}
+										</ul>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					{{/if}}
+
+				{{/if}}
 			</div>
-      {{#if github_details.open_issues}}
-      <div class="modal fade" id='issues-{{id}}' tabindex="-1" role="dialog" aria-labelledby="issuesModal-{{id}}" aria-hiddne="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-              <h4 id="issuesTitle-{{id}}" class="modal-title">Open issues for {{name}}</h4>
-            </div>
-            <div class="modal-body">
-              <ul class="issues">
-                {{#each issues}}
-                <li>
-                  <a href='{{html_url}}'>
-                    <div class="issue">
-                      <h6>{{title}}</h6>
-                      {{#if labels}}
-                      <div>
-                        {{#each labels}}
-                        <div class="issue-label" style="border: 1px solid #{{color}};background-color: #{{color}}">{{name}}</div>
-                        {{/each}}
-                      </div>
-                    </div>
-                    {{/if}}
-                  </a>
-                </li>
-                {{/each}}
-              </ul>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      {{/if}}
-		</div>
-	</div>
-	{{/each}}
-</script>
+		{{/each}}
+	</script>
 {% endraw %}
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <script src="../js/moment.js"></script>
