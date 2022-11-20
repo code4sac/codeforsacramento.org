@@ -1,7 +1,7 @@
 (function () {
 	
 	var ghReposApi = 'https://api.github.com/orgs/code4sac/repos?per_page=5&sort=updated&direction=desc';
-	var ghIssuesApi = 'https://api.github.com/repos/code4sac/{repo}/issues?perg_page=5&sort=updated&direction=desc' 
+	var ghIssuesApi = 'https://api.github.com/repos/code4sac/{repo}/issues?per_page=5&sort=updated&direction=desc' 
 
 	var displayProjects = function (data) {
 		Promise.all(data.map(function (project) {
