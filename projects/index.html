@@ -39,8 +39,8 @@ scripts: ['moment.js','handlebars.min.js','projects.js']
 			<hr>
 			<div class="row">
 				<h3>
-					{{#if link_url}}
-						<a href="{{link_url}}">{{titleize name}}</a>
+					{{#if homepage}}
+						<a href="{{homepage}}">{{titleize name}}</a>
 					{{else}}
 						{{titleize name}}
 					{{/if}}
@@ -48,84 +48,81 @@ scripts: ['moment.js','handlebars.min.js','projects.js']
 
 				<p>{{description}}</p>
 
-				{{#if code_url}}
+				{{#if html_url}}
 					<i class="fa fa-github-square"></i>
-					<a href="{{code_url}}">{{code_url}}</a>
+					<a href="{{html_url}}">{{html_url}}</a>
 					<br />
 				{{/if}}
 
-				<strong>Last Updated: </strong>{{lastUpdateDaysFromNow}}
+				<strong>Last Updated: </strong>{{updated_at}}
 				<br />
 
-				{{#if github_details.language}}
-					<strong>Language: </strong>{{github_details.language}}
+				{{#if language}}
+					<strong>Language: </strong>{{language}}
 					<br />
 				{{/if}}
 
-				{{#if github_details.open_issues}}
+				{{#if open_issues}}
 					<strong>Open Issues: </strong>
-					<a href="#" data-toggle="modal" data-target="#issues-{{id}}">{{github_details.open_issues}} - Get Involved!</a>
+					<a href="#" data-toggle="modal" data-target="#issues-{{id}}">{{open_issues}} - Get Involved!</a>
 					<br />
 				{{/if}}
 			</div>
 
 			<div class="row">
-				{{#if github_details}}
 					<strong>Contributors:</strong>
 					<p class='contributors'>
-						{{#if github_details.owner}}
-							{{#with github_details.owner}}
-								<a href='{{html_url}}' class='contributor-owner'>
-									<img class='img-thumbnail' src='{{avatar_url}}' alt='Owner: {{login}}' title='Owner: {{login}}'/></a>
-								<span style='display: none;'>{{login}}</span>
-							{{/with}}
-						{{/if}}
-						{{#each github_details.contributors}}
-							<a href='{{html_url}}'>
-								<img class='img-thumbnail' src='{{avatar_url}}' alt='{{login}}' title='{{login}}'/>
-							</a>
+					{{#if owner}}
+						{{#with owner}}
+							<a href='{{html_url}}' class='contributor-owner'>
+								<img class='img-thumbnail' src='{{avatar_url}}' alt='Owner: {{login}}' title='Owner: {{login}}'/></a>
 							<span style='display: none;'>{{login}}</span>
-						{{/each}}
-					</p>
+						{{/with}}
+					{{/if}}
+					{{#each contributors}}
+						<a href='{{html_url}}'>
+							<img class='img-thumbnail' src='{{avatar_url}}' alt='{{login}}' title='{{login}}'/>
+						</a>
+						<span style='display: none;'>{{login}}</span>
+					{{/each}}
+				</p>
 
-					{{#if github_details.open_issues}}
-						<div class="modal fade" id='issues-{{id}}' tabindex="-1" role="dialog" aria-labelledby="issuesModal-{{id}}" aria-hiddne="true">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-										<h4 id="issuesTitle-{{id}}" class="modal-title">Open issues for {{name}}</h4>
-									</div>
-									<div class="modal-body">
-										<ul class="issues">
-											{{#each issues}}
-												<li>
-													<a href='{{html_url}}'>
-														<div class="issue">
-															<h6>{{title}}</h6>
-															{{#if labels}}
-																<div>
-																	{{#each labels}}
-																		<div class="issue-label" style="border: 1px solid #{{color}};background-color: #{{color}}">{{name}}</div>
-																	{{/each}}
-																</div>
-															{{/if}}
-														</div>
-													</a>
-												</li>
-											{{/each}}
-										</ul>
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-									</div>
+				{{#if open_issues}}
+					<div class="modal fade" id='issues-{{id}}' tabindex="-1" role="dialog" aria-labelledby="issuesModal-{{id}}" aria-hiddne="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+									<h4 id="issuesTitle-{{id}}" class="modal-title">Open issues for {{name}}</h4>
+								</div>
+								<div class="modal-body">
+									<ul class="issues">
+										{{#each issues}}
+											<li>
+												<a href='{{html_url}}'>
+													<div class="issue">
+														<h6>{{title}}</h6>
+														{{#if labels}}
+															<div>
+																{{#each labels}}
+																	<div class="issue-label" style="border: 1px solid #{{color}};background-color: #{{color}}">{{name}}</div>
+																{{/each}}
+															</div>
+														{{/if}}
+													</div>
+												</a>
+											</li>
+										{{/each}}
+									</ul>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
-					{{/if}}
-
+					</div>
 				{{/if}}
 			</div>
 		{{/each}}
