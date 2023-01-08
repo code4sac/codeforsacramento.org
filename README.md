@@ -12,6 +12,7 @@ Code for Sacramento is a platform for civic innovation. As an open source organi
 
 #### Clone the Repository
 `git clone https://github.com/code4sac/codeforsacramento.org.git`
+
 `cd codeforsacramento.org`
 
 #### Run via docker compose
