@@ -1,13 +1,13 @@
-- name: Open Budget Sacramento
+- name: Open Budget Sac
   description: Visualize where the money comes from and how it's spent.
   image: openbudget.png
   url: http://openbudgetsac.org/
-- name: SacSOS
-  description: Find community services in Sacramento County.
-  image: sacsos.png
-  url: http://sacsos.org/
-- name: Polling Place Accessibility
-  description: Learn about the accessibility of polling locations.
-  image: pollingplaces.png
-  url: http://abustamam.github.io/polling-place-accessibility/
+- name: Trash-AI
+  description: Developing machine learning technology to identify trash you find on the street.
+  image: trashai.png
+  url: http://trashai.org/
+- name: Learning Blocks
+  description: API assisting the gathering and reporting of student grant data.
+  image: learningBlocks.png
+  url: https://github.com/code4sac/learning-blocks
   
