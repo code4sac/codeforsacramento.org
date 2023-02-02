@@ -3,7 +3,7 @@
   image: openbudget.png
   url: http://openbudgetsac.org/
 - name: Trash-AI
-  description: Developing machine learning technology to identify trash you find on the street.
+  description: Developing machine learning technology to identify trash in images.
   image: trashai.png
   url: http://trashai.org/
 - name: Learning Blocks
