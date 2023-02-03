@@ -1,5 +1,5 @@
 - name: Open Budget Sacramento
-  description: Visualize where the money comes from and how it's spent.
+  description: Visualize where the money comes from and how it's spent. Drill into the details of income and spending.
   image: openbudget.png
   url: http://openbudgetsac.org/
 - name: Trash-AI
