@@ -5,11 +5,11 @@ layout: default
 permalink: /contact/
 ---
 
-###[Email](mailto:hello@codeforsacramento.org) &#124; [Twitter](https://twitter.com/code4sac) &#124; [Meetup](http://www.meetup.com/Code4Sac/)
+#### [Email](mailto:hello@codeforsacramento.org) &#124; [Twitter](https://twitter.com/code4sac) &#124; [Meetup](http://www.meetup.com/Code4Sac/)
 
 <hr />
 
-##Stay up to date
+### Stay up to date
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
