@@ -20,6 +20,9 @@ Code for Sacramento is a platform for civic innovation. As an open source organi
 
 Keep this tab open and running while you are viewing/editing.  Press ctrl + c to exit when you are finished.
 
+`docker-compose build`
+
+If you have previously built the Docker image and are getting an error concerning Ruby packages, try to rebuild the Docker image.
 
 ### Requirements - installing on operating system without Docker
 * [Ruby 1.9.3 or later](https://www.ruby-lang.org/en/documentation/installation/)
