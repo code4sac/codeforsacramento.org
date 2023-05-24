@@ -97,28 +97,65 @@ footer li {
   list-style-type: none;
   padding: 0 10px;
 }
+.issues li {
+  position: relative;
+  counter-increment: issue-counter;
+}
+
 .issues li a {
   text-decoration: none;
 }
+
+.issues h6 {
+  font-size: 1.8rem;
+}
+
+.issues-title {
+
+  font-size: 4rem;
+  text-align: center;
+}
+
+.issue:before {
+  content: counter(issue-counter); 
+  display: inline-block;
+  position: absolute; 
+  top: -5px; 
+  left: -5px; 
+  background-color: #444444;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bold; 
+}
+
 .issue {
   text-align: center;
   border: 1px solid #e5e5e5;
   border-radius: .33em;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
   padding: 10px;
 }
+
+
 .issue:hover {
   border: 1px solid #9c9c9c;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
+
 .issue-label {
   display: inline-block;
-  color: white;
+  color: black;
   text-align: center;
   border-radius: .33em;
   margin: 5px;
   padding: 0 10px;
-  font-size: 0.85em;
+  font-size: 0.9em;
 }
 
 .form-control {
