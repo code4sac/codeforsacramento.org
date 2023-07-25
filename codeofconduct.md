@@ -1,5 +1,5 @@
 ---
-title: codeofconduct
+title: Code of Conduct
 author: Code for Sacramento
 layout: codeofconduct
 permalink: /codeofconduct/
