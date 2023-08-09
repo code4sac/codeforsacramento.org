@@ -2,7 +2,7 @@
 title: Code of Conduct
 author: Code for Sacramento
 layout: codeofconduct
-permalink: /codeofconduct/
+permalink: /code-of-conduct/
 ---
 
 ## Code for Sacramento is a safe space for everyone.
