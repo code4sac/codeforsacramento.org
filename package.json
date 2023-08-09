@@ -1,24 +1,29 @@
 {
-  "name": "nate-codeforsacramento.org",
-  "version": "1.0.0",
-  "description": "codeforsacramento.org =====================",
-  "main": "index.js",
+  "name": "codeforsacramento.org",
+  "version": "2.0.0",
+  "description": "Website for Code for Sacramento",
   "scripts": {
 		"start": "eleventy --serve",
+    "build": "npx @11ty/eleventy --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/natebass/codeforsacramento.org.git"
+    "url": "git+https://github.com/code4sac/codeforsacramento.org.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+	"author": {
+		"name": "Code for Sacramento",
+		"email": "hello@codeforsacramento.org",
+		"url": "https://codeforsacramento.org"
+	},
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/natebass/codeforsacramento.org/issues"
+    "url": "https://github.com/code4sac/codeforsacramento.org/issues"
   },
-  "homepage": "https://github.com/natebass/codeforsacramento.org#readme",
-  "dependencies": {
+  "homepage": "https://github.com/code4sac/codeforsacramento.org#readme",
+  "dependencies": {},
+  "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
   }
 }
