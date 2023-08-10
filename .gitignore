@@ -4,7 +4,6 @@ _site/
 bower_components/
 node_modules/
 build/
-*.json
 !projects/*.json
 gulpfile.js
 
