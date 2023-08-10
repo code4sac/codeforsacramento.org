@@ -1,6 +1,6 @@
 /**
  * Configuration for eleventy
- * @parameter eleventyConfig
+ * @parameter config
  */
 const eleventyConfig = config => {
   config.ignores.add("README.md");
@@ -10,6 +10,12 @@ const eleventyConfig = config => {
   config.addPassthroughCopy("css");
   config.addPassthroughCopy("images");
   config.addPassthroughCopy("js");
+  return {
+    dir: {
+      includes: "_includes",
+      layouts: "_layouts"
+    }
+  }
 }
 
 module.exports = eleventyConfig
