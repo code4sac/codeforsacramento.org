@@ -24,4 +24,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+          git-config-name: Automated
+          git-config-email: hello@codeforsacramento.org
           branch: gh-pages
