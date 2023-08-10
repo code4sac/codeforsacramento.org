@@ -22,8 +22,8 @@
     "url": "https://github.com/code4sac/codeforsacramento.org/issues"
   },
   "homepage": "https://github.com/code4sac/codeforsacramento.org#readme",
-  "dependencies": {},
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "js-yaml": "^4.1.0"
   }
 }
