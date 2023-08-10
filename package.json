@@ -12,11 +12,11 @@
     "url": "git+https://github.com/code4sac/codeforsacramento.org.git"
   },
   "keywords": [],
-	"author": {
-		"name": "Code for Sacramento",
-		"email": "hello@codeforsacramento.org",
-		"url": "https://codeforsacramento.org"
-	},
+  "author": {
+    "name": "Code for Sacramento",
+    "email": "hello@codeforsacramento.org",
+    "url": "https://codeforsacramento.org"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/code4sac/codeforsacramento.org/issues"
