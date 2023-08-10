@@ -5,4 +5,4 @@ layout: default
 permalink: /who-we-are/
 ---
 
-{% include about/innovators.html %}
+{% include "about/innovators.html" %}
