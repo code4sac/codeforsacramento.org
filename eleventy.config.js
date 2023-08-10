@@ -10,14 +10,6 @@ const eleventyConfig = config => {
   config.addPassthroughCopy("css");
   config.addPassthroughCopy("images");
   config.addPassthroughCopy("js");
-  return {
-    htmlTemplateEngine: "njk",
-    templateFormats: ["html", "md"],
-    dir: {
-      includes: "_includes",
-      layouts: "_layouts"
-    }
-  }
 }
 
 module.exports = eleventyConfig
